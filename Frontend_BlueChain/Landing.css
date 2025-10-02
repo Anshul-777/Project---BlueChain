@@ -1,0 +1,40 @@
+.landing {
+  height: 100vh;
+  background: url("img1.jpg") no-repeat center center/cover; /* 🔥 background image */
+  color: white;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.third-heading {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.para {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+}
+
+.custom-btn {
+  background: white;
+  color: purple;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.small-text {
+  font-size: 1rem;
+  margin-top: 20px;
+}
