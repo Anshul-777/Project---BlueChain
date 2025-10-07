@@ -62,7 +62,7 @@ const MAX_LOCAL_PHOTO_MB = 10;
 const MAX_ORG_PHOTO_MB = 15;
 const MAX_DOC_MB = 20;
 const MAX_BOUNDARY_MB = 20;
-const MIN_IMAGE_KB = 20; // min image size
+const MIN_IMAGE_KB = 10; // min image size
 
 // Debounced effect helper
 const useDebouncedEffect = (effect, deps, delay = 600) => {
