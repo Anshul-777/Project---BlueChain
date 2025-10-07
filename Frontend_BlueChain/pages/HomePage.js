@@ -117,7 +117,7 @@ function HomePage() {
           <Button
             variant="primary"
             as={Link}
-            to="/registerform"
+            to="/register"
             style={{ position: "relative", right: "1240px", top: "1px" }}
           >
             + Create
