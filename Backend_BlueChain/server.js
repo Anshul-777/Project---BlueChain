@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
@@ -16,6 +17,17 @@ app.use(cors({
   origin: "http://localhost:3000", // frontend port
   credentials: true
 }));
+
+// Serve uploaded files
+app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
+
+// Mount projects API router
+try {
+  const projectsRouter = require("./routes/projects");
+  app.use("/api/projects", projectsRouter);
+} catch (e) {
+  console.warn("Projects router not mounted:", e?.message);
+}
 
 // Helper: set cookie with JWT
 function setTokenCookie(res, payload) {
