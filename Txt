@@ -2471,3 +2471,71 @@ const RegisterForm = () => {
 };
 
 export default RegisterForm;
+
+
+
+
+see errors, paste the first error line/message and I’ll fix it immediately.
+
+Code is working flawlessly, Can you just make the form structure more beautiful, in design, use animations like hover, and fade up in and more unique ones. And transition . 
+And show better.
+Show the different sections with different animation.
+
+And btw, modify one tiny things.
+The number should be only limited to 10 fixed digits, as numbers are in contact. Know that.
+And according to country.
+
+And multiple seperate plant ecosystem should be able to selected. So organization and local can choose multiple planst.
+We are assuming the project may includes multiple different species. So they should be able to choose that, make it that way.
+And if there is number of plant, it Should increase depending on their choice. If they selected 2 or more.
+
+And for draft saving you may use local storage. 
+
+And from some limit kb to maximum of 10 mb for image.
+And for uploading button, give it seperate animation and color and etc.
+
+And design it beautifully each section distinguished able...
+And add PostgreSQL connection too, and give schemes for sql saving the database directly.
+
+And it should be linked to our homepage.
+It's name is,
+*HomePage.js"
+The name of files.
+So you add that link in register and when I give homepage code later in next response, you have to connect it too.
+And the data should be saved in database.
+
+And btw, make the light and dark more for form.
+And do not changes the other parts of the code.
+
+Just improve the design and structure with separate and that contract, and multiple ecosystem.
+And also add a option to draw digital signature or send capture signature images with live capture.
+
+Just give like like before.
+Give me that earlier one, just i want it Better in design and with no error. And rewrite entire. 
+Nothing else should change.
+
+
+Make it final code for this registation form with absolutely no error.
+
+And connect it with the database of PostgreSQL and also back-end logic too 
+We already have server.js files, and have some code. So give that code in the same or different file but it shouldn't alter the Remaining code. And we also have a db file if you need it.
+
+Give both database schema and backend logic, with improved registration form which is linked to "HomePage.js".
+
+In the next response, I will give you the homepage code and tell you to make some modifications in that too, like taking this registration form which is submitted and displaying it all properly in our home page dashboard, in the card structure. And when read more. It should fetch the same as well.
+
+
+And also use sha256 algorithm in registration form, so it can be used to save hash of this data and save in Blockchain. Make that system. But make it comments all, so it shouldn't work. It will be used for later. But this registration form should be secure. And our plan is for Blockchain based blue carbon registry and MRV system. So registration is this form which is supposed to be saved in Blockchain only after admin verification. 
+
+So till then, it is saved in PostgreSQL.
+So you understand the working concept. So make it all according to that.
+And btw, this all should run now, as frontend.
+And save in database.
+
+While the non-working code should be comment. Which will be used later when we make back-end.
+So yeah...
+All data should be fetchable.
+
+Comment all code explaining the working for understanding.
+And give the final registration, schema and backend connections. Now.
+We will discuss the homepage in next response.
