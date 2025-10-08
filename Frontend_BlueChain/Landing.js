@@ -4,17 +4,6 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function LandingPage() {
-  // Inject Tailwind CDN once (no CRA build change)
-  useEffect(() => {
-    if (!document.getElementById("tw-cdn")) {
-      const link = document.createElement("link");
-      link.id = "tw-cdn";
-      link.rel = "stylesheet";
-      link.href =
-        "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css";
-      document.head.appendChild(link);
-    }
-  }, []);
 
   // Smooth scroll for in-page section links
   useEffect(() => {
@@ -58,7 +47,7 @@ function LandingPage() {
   };
 
   return (
-    <div className="landing-root bg-white text-gray-800">
+    <div className="landing-root bg-white text-dark">
       <style>{`
         /* Base layout/theme */
         .landing-root { min-height: 100vh; overflow-x: hidden; }
