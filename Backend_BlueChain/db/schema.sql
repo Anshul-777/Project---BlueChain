@@ -1,6 +1,22 @@
 -- Backend_BlueChain/db/schema.sql
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
+-- Users (authentication)
+CREATE TABLE IF NOT EXISTS users (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
+  name TEXT NOT NULL,
+  email TEXT NOT NULL UNIQUE,
+  phone TEXT,
+  city TEXT,
+  country TEXT,
+  category TEXT,
+  id_note TEXT,
+  password_hash TEXT NOT NULL,
+  user_uid TEXT NOT NULL UNIQUE,
+  recovery_words_hash TEXT
+);
+
 -- Local projects
 CREATE TABLE IF NOT EXISTS projects_local (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
